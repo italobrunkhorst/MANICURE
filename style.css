@@ -9,7 +9,7 @@ body {
 header {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(135deg, #ff99cc, #ff66b2);
+  background: linear-gradient(135deg, #eae3d5, #e9dbbe);
   color: white;
 }
 
@@ -74,7 +74,7 @@ section {
 footer {
   text-align: center;
   padding: 20px;
-  background: #ff3399;
+  background: #eae3d5;
   color: white;
 }
 footer a {
