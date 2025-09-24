@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manicure - Elen</title>
   <link rel="stylesheet" href="style.css">
+  <script type="module" src="agendamento.js"></script>
 </head>
 <body>
   <!-- Cabeçalho -->
   <header>
     <h1>Unhas Perfeitas com a Elen</h1>
     <p>Cuidado, estilo e beleza para suas mãos</p>
-    <a href="https://wa.me/5541985222889" target="_blank" class="btn">Agende pelo WhatsApp</a>
+    <!--a href="https://wa.me/5541985222889" target="_blank" class="btn">Agende pelo WhatsApp</a-->
   </header>
 
   <!-- Serviços -->
@@ -23,6 +24,30 @@
       <li>🌸 Nail Art Personalizada</li>
       <li>💖 Spa das Mãos</li>
     </ul>
+  </section>
+
+  <!--Agendamento-->
+  <section class="agendamento">
+    <h2>Agende seu horário</h2>
+    <form id="form-agendamento">
+      <input type="text" id="nome" placeholder="Seu nome" required>
+      <input type="date" id="data" required>
+      
+      <select id="hora" required>
+        <option value="">Selecione um horário</option>
+      </select>
+      
+      <select id="servico" required>
+        <option value="">Selecione o serviço</option>
+        <option>Manicure Simples</option>
+        <option>Esmaltação em Gel</option>
+        <option>Nail Art</option>
+        <option>Spa das Mãos</option>
+      </select>
+      
+      <button type="submit">Agendar</button>
+    </form>
+    <p id="status"></p>
   </section>
 
   <!-- Galeria -->
@@ -45,8 +70,10 @@
   <!-- Contato -->
   <footer>
     <h2>Contato</h2>
-    <p>📞 WhatsApp: <a href="https://wa.me/5541985222889" target="_blank">Clique aqui</a></p>
-    <p>📸 Instagram: <a href="https://instagram.com/elenpalotinonails" target="_blank">@elenpalotinonails</a></p>
+    <!--p>📞 WhatsApp: <a href="https://wa.me/5541985222889" target="_blank">Clique aqui</a></p-->
+    <a href="https://wa.me/5541985222889" target="_blank"><img src="img/whatsapp.svg" alt="WhatsApp"></a>
+    <a href="https://instagram.com/elenpalotinonailsdesigner" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+    <!--p>📸 Instagram: <a href="https://instagram.com/elenpalotinonails" target="_blank">@elenpalotinonails</a></p-->
     <p>📍 Localização: Rua Mafra - 112 - Tabuleiro / Matinhos</p>
   </footer>
 </body>

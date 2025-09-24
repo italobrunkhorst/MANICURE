@@ -9,7 +9,7 @@ body {
 header {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(135deg, #eae3d5, #e9dbbe);
+  background: linear-gradient(135deg, #ff99cc, #ff66b2);
   color: white;
 }
 
@@ -22,7 +22,7 @@ header .btn {
   margin-top: 15px;
   padding: 10px 20px;
   background: white;
-  color: #eae3d5;
+  color: #ff3399;
   font-weight: bold;
   border-radius: 20px;
   text-decoration: none;
@@ -74,10 +74,14 @@ section {
 footer {
   text-align: center;
   padding: 20px;
-  background: #eae3d5;
+  background: #ff3399;
   color: white;
 }
 footer a {
   color: yellow;
   text-decoration: none;
+}
+
+footer img{
+  width: 32px;
 }
